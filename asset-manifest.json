@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08198210.css",
+    "main.js": "/static/js/main.bdbe1a26.js",
+    "static/js/453.01e00166.chunk.js": "/static/js/453.01e00166.chunk.js",
+    "static/media/image.png": "/static/media/image.e6cbdd1230c74e0f7436.png",
+    "static/media/image copy 5.png": "/static/media/image copy 5.f962e4e0401d993dd421.png",
+    "static/media/image copy 3.png": "/static/media/image copy 3.4198d56a0949d0424f17.png",
+    "static/media/image copy 2.png": "/static/media/image copy 2.2eccdb8c6ec2435c3a5d.png",
+    "static/media/image copy 4.png": "/static/media/image copy 4.e07a1903a5b24ef6ed98.png",
+    "static/media/whatsapp (1).png": "/static/media/whatsapp (1).c339ff504121f060e736.png",
+    "static/media/CabinetGrotesk-Regular.otf": "/static/media/CabinetGrotesk-Regular.6c7032f4db5e585f0c48.otf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.08198210.css.map": "/static/css/main.08198210.css.map",
+    "main.bdbe1a26.js.map": "/static/js/main.bdbe1a26.js.map",
+    "453.01e00166.chunk.js.map": "/static/js/453.01e00166.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08198210.css",
+    "static/js/main.bdbe1a26.js"
+  ]
+}
