@@ -1,38 +1,185 @@
+* {
+  background-size: cover;
+  /* background-image: url(../src/img/image.png); */
+}
 .App {
+  object-fit: contain;
+}
+#topper {
+  color: aliceblue;
+  display: flex;
+  border-bottom: 1px solid white;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: transparent;
+}
+.social-media {
+  margin: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#logo {
+  border-right: 1px solid white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#contact {
+  margin: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#email-logo {
+  height: 2.5vh;
+  margin: 2px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#call-logo {
+  height: 2.5vh;
+  margin: 2px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+a {
+  color: aliceblue;
+}
+nav {
+  background-color: transparent;
+  margin: 0px 15vh 0px 15vh;
+}
+#aep {
+  height: 10vh;
+}
+@font-face {
+  font-family: Cabinet;
+  src: url(../src/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Regular.otf);
+}
+#hi {
+  font-family: Cabinet;
+  color: #fff;
+  font-size: 108px;
+  line-height: 108px;
+  text-align: center;
+
+  font-weight: 700;
+  margin: 100px 10vw 2.5vh 10vw;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+#home-p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: center;
+  color: #ffffff;
+
+  margin: 25vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#buttons {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#orange-button {
+  background: #ff6e1d;
+  color: #ffffff;
+}
+#white-button {
+  background-color: #fff;
+  margin: 20px;
+}
+button {
+  background-color: #fff;
+  border: none;
+  height: 4vh;
+}
+#back {
+  z-index: -1;
+  position: absolute;
+  min-height: fit-content;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.watsappicon {
+  height: 6vh;
+  position: absolute;
+  bottom: 15vh;
+  right: 5vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#second-box {
+  width: 70vw;
+  background: #f2f2f4;
+  height: 60vh;
+  margin: 20vh 10vh 20vh 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  overflow: hidden;
+}
+#building {
+  height: 60vh;
+  width: 35vw;
+}
+#long {
+  background-image: url(../src/img/image\ copy\ 3.png);
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5vh 0 5vh 0;
 }
-
-.App-link {
-  color: #61dafb;
+.big-text {
+  font-size: 60px;
+  margin-bottom: 0%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+br {
+  margin: 0%;
+} /* founder section */
+#founder {
+  background: linear-gradient(90deg, #f8f8fb 0%, rgba(249, 250, 254, 0) 100%);
+  height: 70vh;
+  border-radius: 30px;
+}
+/* popup */
+.popup-content {
+  background-color: #f8f8fb;
+}
+#contact-info {
+  background: url(../src/img/image\ copy\ 6.png);
+}
+.techno {
+  color: #4b6bfb;
+  background-color: #4b6bfb 5%;
+}
+/* media */
+@media (max-width: 700px) {
+  body {
+    width: 100vw;
   }
-  to {
-    transform: rotate(360deg);
+  .social-media {
+    height: 2vw;
+  }
+  #industry {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  #long {
+    visibility: hidden;
+  }
+  #home1 {
+    width: 100vw;
+  }
+  #photooil {
+    display: none;
+  }
+  #founder {
+    width: 100vw;
+  }
+  #founder-img {
+    width: 50vw;
   }
 }
