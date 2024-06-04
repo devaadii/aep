@@ -1,5 +1,6 @@
 import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -7,7 +8,9 @@ function Footer() {
       style={{
         height: "50vh",
         backgroundColor: "black ",
-        padding: "40px",
+        padding: "20px",
+        margin: "0",
+        width: "100vw",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-around",
@@ -25,8 +28,10 @@ function Footer() {
         }}
       >
         <div style={{ color: "#fff", fontSize: "2vh" }}>
-          It will help you improve your writing<br></br> & bring ideas more
-          clearly.
+          <span id="footer-span">
+            It will help you improve your writing<br></br> & bring ideas more
+            clearly.
+          </span>
         </div>
         <div>
           <button
@@ -35,6 +40,7 @@ function Footer() {
               borderRadius: "4px",
               fontWeight: "700",
             }}
+            id="footer-btn"
           >
             Contact Us Now
           </button>
@@ -52,7 +58,7 @@ function Footer() {
           style={{ display: "flex", flexDirection: "column", color: "#fff" }}
         >
           <h6>Company</h6>
-          <a>About</a>
+          <Link to="blogs"> About</Link>
           <a>Feature</a>
           <a>Works</a>
           <a>Career</a>

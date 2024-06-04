@@ -1,0 +1,20 @@
+import React from "react";
+import Props from "../Props";
+
+function Waste() {
+  return (
+    <Props
+      heading="Waste Management Industry"
+      para="Waste management industry has come a long way from just a waste collection and dumping to becoming an essential element of the Circular economy. Main problem is still education of the general population and major clients to do preliminary sorting of the solid municipal waste at the source or place of collection by people generating that waste. Another big issue is contamination of the household city waste with organics / food waste, as it is not energy efficient to process all the waste together using either gasification or pyrolysis. That's why Sweden, Germany, Japan, Lithuania which have 5-7 rubbish bins for waste segregation prior to collection, have the highest 90%+ efficiency in SMW recycling and resource recovery, compared to 1-9% for Australia, Asia. AEP ENG has developed the presorted and unsorted waste preparation and processing with any moisture or leachate content, using the minimal sorting, shredding and drying by our proprietary pulse drying technology for further processing by low temperature pyrolysis, not burning, not incineration, not incineration bottom ash (IBA). We use our carbon emissions negative, advanced pyrolysis processing, subject to waste rheology, composition. We can process waste content of the yellow lid (recyclable) and red lid (not recyclable) rubbish bins in Australia going to landfill and despite some contamination with food.
+  Working with clients, using our modular plants, we always find appropriate and most effective solution for problematic waste. We tested 200 various types of waste. AEP developed a know-how technology and equipment, which German thinktank for applied RnD called Fraunhofer Institute said is “30 years ahead of the anything out there in the market, and the most flexible and effective modular design for easy scalable public utility plant they ve ever seen”. Following years of RnD and testing, we segregated all waste into several main groups, where each required its own set of tech parameters and separate reactor for each waste group for the advanced pyrolysis or gasification processing.
+  SMW- city waste is a black box with many variables and unknown composition, as waste content or rheology may vary day by day, season by season, city by city, and country by country. SMW is NOT a stable product with constant parameters.Even after sorting and even if it is contaminated with the organic food leftovers, the waste destined to go to a Landfill could be processed with some efficiency, subject to unusable unrecyclable plastic tails content, which is by our research is still 10-25% by weight and can be processed into RDF (refuse derived fuel) or used for energy recovery and disposed of without carbon emissions. 
+  
+  Basically all waste in our plant is undergoing thermos-chemical process of breaking down back to elements and molecules which form a new synthetic flue gas and water steam mix, processed further to separate and clean up usable hydro-carbons and to destroy all harmful or unwanted substances like moisture, heavy paraffins, carbon black, fly ash, CO/CO2, etc to segregate a usable syngas with high methane content, similar to LNG and ballast gases. The syn gas could be used as is, can be liquified for storage or transportation, can be used for further processing by shock condensation with hi-tech refining to syn fuels, and/or transformed to green hydrogen by advanced secondary pyrolysis in liquid metal bath module (optional and more expensive). We produce custom made waste processing plants according to client needs / specifications. We offer JV/ PPP for ongoing management, training and servicing to show our commitment to the project and our interest in its outcome.
+   
+  
+  For the Waste Management Industry, Local Councils' waste transfer stations and Waste landfill polygons we can provide very effective, yet environmentally friendly solutions for a range of different hazard waste groups, such as "
+    />
+  );
+}
+
+export default Waste;

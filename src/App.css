@@ -1,18 +1,11 @@
-* {
-  background-size: cover;
-  /* background-image: url(../src/img/image.png); */
-}
-.App {
-  object-fit: contain;
-}
 #topper {
   color: aliceblue;
   display: flex;
   border-bottom: 1px solid white;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0%;
+
   background-color: transparent;
 }
 .social-media {
@@ -76,7 +69,7 @@ nav {
   text-align: center;
   color: #ffffff;
 
-  margin: 25vw;
+  margin: 20vw;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -157,29 +150,109 @@ br {
 /* media */
 @media (max-width: 700px) {
   body {
-    width: 100vw;
+    margin: 0%;
+    padding: 0px;
+  }
+
+  #topper {
+    display: none;
   }
   .social-media {
-    height: 2vw;
+    height: 1vw;
   }
+
   #industry {
-    text-align: center;
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #indus {
+    width: 90vw;
+  }
+  #industry-h {
+    font-size: 3rem;
+  }
+  #industry-h2 {
+    font-size: 50px;
+  }
+
+  .p-f {
+    font-size: 5px;
   }
   #long {
-    visibility: hidden;
+    display: none;
   }
-  #home1 {
-    width: 100vw;
+  #abyw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   #photooil {
     display: none;
   }
+
+  #email-span {
+    font-size: 10px;
+  }
+  #call-span {
+    font-size: 10px;
+  }
+  #home-p {
+    font-size: 15px;
+  }
+  #logo {
+    padding: 10px;
+  }
+  #hi {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #second-box {
+    width: 300px;
+    height: 300px;
+    margin: 10vh 5vh 10vh 5vh;
+    font-size: x-small;
+  }
+  #text-box {
+    margin: 4px;
+  }
+  .card {
+    margin-bottom: 5px;
+  }
+  .p-i {
+    font-size: smaller;
+  }
   #founder {
-    width: 100vw;
+    height: 50vh;
   }
   #founder-img {
     width: 50vw;
+    scale: 0.5;
+    position: relative;
   }
+  #industry-h {
+    font-size: 2vh;
+  }
+
+  #footer-span {
+    font-size: smaller;
+  }
+  #footer-btn {
+    font-size: smaller;
+  }
+  #aep {
+    width: 20vw;
+  }
+}
+
+.card:hover {
+  box-shadow: 8px 8px 8px #28282b;
+  cursor: pointer;
+  animation-name: border;
+}
+.techno {
+  background-color: ghostwhite;
+  border-radius: 5px;
 }

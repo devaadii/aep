@@ -30,9 +30,9 @@ function Topper() {
         </div>
         <div id="contact">
           <img id="email-logo" src={email} alt="email"></img>
-          <span>support@dizoil.com</span>
+          <span id="email-span">support@dizoil.com</span>
           <img id="call-logo" src={caller} alt="caller"></img>
-          <span>(+62) 888-800-212</span>
+          <span id="call-span">(+62) 888-800-212</span>
         </div>
       </div>
     </>

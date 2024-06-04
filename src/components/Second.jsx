@@ -13,7 +13,7 @@ function Second() {
     >
       <div id="second-box">
         <img src={building} id="building" alt="buliding"></img>
-        <div style={{ padding: "3%" }}>
+        <div id="text-box" style={{ padding: "3%" }}>
           <h6>our story</h6>
           <h2>AEP Technolgy</h2>
           <hr style={{ width: "10vw", margin: "0" }}></hr>

@@ -1,10 +1,12 @@
 import React from "react";
 import founderimg from "../founder/image.png";
 
-function Founder() {
+function Founder(props) {
   return (
     <div style={{ overflow: "hidden" }}>
-      <h2 style={{ textAlign: "center", fontSize: "6vh" }}>OUR FOUNDER</h2>
+      <h2 id="industry-h2" style={{ textAlign: "center", fontSize: "6vh" }}>
+        {props.h}
+      </h2>
       <div
         id="founder"
         style={{
@@ -15,25 +17,12 @@ function Founder() {
         }}
       >
         <img id="founder-img" style={{ height: "60vh" }} src={founderimg}></img>
-        <div style={{ width: "30vw", height: "60vh" }}>
-          <h3 style={{ fontSize: "5vh" }}>Name of the Person with that post</h3>
-          <p>
-            vivamus. Fames volutpat sagittis vitae dignissim gravida. Gravida
-            dapibus lacus nam at habitant vivamus maximus. Eros donec
-          </p>
-          <p>
-            vivamus. Fames volutpat sagittis vitae dignissim gravida. Gravida
-            dapibus lacus nam at habitant vivamus maximus. Eros donec
-          </p>
-          <p>
-            vivamus. Fames volutpat sagittis vitae dignissim gravida. Gravida
-            dapibus lacus nam at habitant vivamus maximus. Eros donec
-          </p>
-          <p>
-            vivamus. Fames volutpat sagittis vitae dignissim gravida. Gravida
-            dapibus lacus nam at habitant vivamus maximus. Eros donec
-          </p>
-          <p>hbcdljkcnblkdsnbvckldsnvjldsbnvjklbdfs</p>
+        <div style={{ width: "30vw", margin: "0" }}>
+          <h3 id="industry-h" style={{ fontSize: "5vw" }}>
+            {props.name}
+          </h3>
+          <p className="p-f">{props.description}</p>
+          <p className="p-f"></p>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ export default function Nav() {
         <img id="aep" className=" bg-transparent" src={logo} alt="logo"></img>
       </a>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler bg-white"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavDropdown"
@@ -34,7 +34,7 @@ export default function Nav() {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link text-white" href="#">
-              About<span className="sr-only">(current)</span>
+              About<span className="sr-only"></span>
             </a>
           </li>
           <li className="nav-item dropdown">

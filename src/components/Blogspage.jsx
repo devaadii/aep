@@ -5,7 +5,7 @@ function Blogspage() {
   return (
     <div style={{ width: "90vw", marginLeft: "5vw" }}>
       <h4 className="mx-4 my-12">Latest Post</h4>
-      <div className="row mx-4 my-2">
+      <div className="row mx-4 my-4">
         <div className="col-sm-4">
           <div className="card">
             <img
@@ -68,7 +68,7 @@ function Blogspage() {
           </div>
         </div>
       </div>
-      <div className="row mx-4 my-2">
+      <div className="row mx-4 my-4">
         <div className="col-sm-4">
           <div className="card">
             <img
@@ -131,7 +131,7 @@ function Blogspage() {
           </div>
         </div>
       </div>
-      <div className="row mx-4 my-2">
+      <div className="row mx-4 my-4">
         <div className="col-sm-4">
           <div className="card">
             <img

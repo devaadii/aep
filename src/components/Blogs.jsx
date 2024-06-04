@@ -1,6 +1,7 @@
 import React from "react";
 import watsapp from "../icons/whatsapp (1).png";
 import backgroundimage from "../img/image.png";
+import Blogspage from "./Blogspage";
 
 function Blogs() {
   return (
@@ -12,6 +13,7 @@ function Blogs() {
         <button id="orange-button">Get a Quote ></button>
         <button id="white-button">Get a Quote ></button>
       </div>
+      <Blogspage />
     </div>
   );
 }
