@@ -10,6 +10,7 @@ import ApplicationByWaste from "./ApplicationByWaste";
 import OurTechnologies from "./OurTechnologies";
 import Founder from "./Founder";
 import Footer from "./Footer";
+import MyNavbar from "./MyNavbar";
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
         style={{ backgroundImage: `url(${background})`, height: "100vh" }}
       >
         <Topper />
-        <Nav />
+        <MyNavbar />
         <div
           id="home1"
           id="home1"

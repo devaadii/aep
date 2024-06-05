@@ -243,7 +243,10 @@ br {
     font-size: smaller;
   }
   #aep {
-    width: 20vw;
+    width: 15vw;
+  }
+  #navi {
+    width: 50vw;
   }
 }
 
